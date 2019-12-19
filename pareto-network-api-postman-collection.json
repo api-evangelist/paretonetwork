@@ -1,0 +1,344 @@
+{
+    "id": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+    "name": "PARETO NETWORK API",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "292a1793ca66b77024fcd2be65ed390e",
+            "name": "Cookie authentication",
+            "url": "https\/\/sign",
+            "description": "Test the hash between a message and public key. If the test is passed, a cookie is stored. The parameters of this request are gotten from MetaMask",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c31a5aec0154305f406370836693b375",
+            "name": "Get the list of all addresses sorted by rank",
+            "url": "https\/\/rank",
+            "description": "Get all the addresses sorted by rank. The ranking is gotten from the Ethereum score",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "b81c6c0c76a450eaadcf88113060a2cf",
+            "name": "Test if user is properly authenticated",
+            "url": "https\/\/auth",
+            "description": "Simple authenticated method to determine if user is properly authenticated.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "1839f04c5f4ade83145aa16f1d866b0f",
+            "name": "Unsign http client for the current user",
+            "url": "https\/\/unsign",
+            "description": "Manage unsign proccess. Delete cookie with header set-cookie",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c50b45c73302cabd741e3d3323c265d1",
+            "name": "Get the information of the current user",
+            "url": "https\/\/address",
+            "description": "Get the information of the current user. The current user is fetched using the auth cookie.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "a3796b46157118cc4a679ccbbabe5a9c",
+            "name": "Get the information of a specific user",
+            "url": "https\/\/address\/{address}",
+            "description": "Get the information of a specific user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "address",
+                    "description": "address to use",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "688f31977ff6813490fc204c611ed7c5",
+            "name": "Get the content about the actionable investing intels",
+            "url": "https\/\/content",
+            "description": "Get all available content about the actionable investing intels.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "85decd1f2fee974b4511096af759b981",
+            "name": "Get the content available for current user",
+            "url": "https\/\/content\/me",
+            "description": "Get the content available for current user",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "b82e9eb44a048ad7e8fefde71929d032",
+            "name": "Get the information of the profile user",
+            "url": "https\/\/userinfo",
+            "description": "Get the information of the current user. The current user is fetched using the auth cookie.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "latest",
+                    "description": "if true force update ranking. This must be call only after sign process",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "c6fae3a831c1916e8c7b5f6ee7a7429c",
+            "name": "Get the profile of a specific user",
+            "url": "https\/\/userinfo\/{address}",
+            "description": "Get the profile of a specific user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "address",
+                    "description": "address to use",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "f1e50eefba0484eb14be80e0e42d4e72",
+            "name": "Update the profile of the current user",
+            "url": "https\/\/updateuser",
+            "description": "Update the profile of the current user",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "0cf50aa54dd09e636547f18dd08de198",
+            "name": "Get the image profile",
+            "url": "https\/\/profile-image",
+            "description": "Get the image profile",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "image",
+                    "description": "resource to be gotten",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        },
+        {
+            "id": "0f096c2166c7a0cc83717fbbf947c5f8",
+            "name": "Upload image",
+            "url": "https\/\/upload-profile",
+            "description": "Upload Image",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "e449ab8edfe73ad8c12ecbaa5b090cdc",
+            "rawModeData": ""
+        }
+    ]
+}
