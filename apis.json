@@ -1,0 +1,61 @@
+{
+    "name": "ParetoNetwork",
+    "description": "<p>A peer-to-peer financial content market place using the Ethereum distributed ledger technology. Current, reputable &amp; actionable intel for digital currency traders and investors.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28734-www-pareto-network.jpg",
+    "tags": [
+        "blockchain",
+        "data",
+        "financial",
+        "general data",
+        "have api",
+        "relative data",
+        "service api"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/paretonetwork\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "PARETO NETWORK API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/28734-www-pareto-network.jpg",
+            "humanURL": "https:\/\/www.pareto.network",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/pareto-network-api.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Authentication",
+            "url": "https:\/\/www.pareto.network\/api-docs\/#section\/Authentication"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/pareto-networks"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/www.pareto.network\/api-docs\/"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/www.pareto.network\/api-docs\/"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/ParetoNetwork"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.pareto.network"
+        }
+    ]
+}
